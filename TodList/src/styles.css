@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --main-color:#394049;
+--seconadry-color:#E65C8B;
+}
+body{
+    font-family: "Arvo", serif;
+background-color:#2C2C2C;
+}
+
+.bordert{
+  border-bottom: 1px solid ;
+}
+ul{
+    list-style:none ;
+    border-bottom: 1px solid rgb(37, 32, 32);
+
+}
+.box-todo{
+    background-color: var(--main-color);
+}
+nav li{
+    color:#ffff;
+    transition: .2s;
+}
+input{
+    border-color: rgb(37, 32, 32) !important;
+    background-color: #D9D9D9 !important;
+    color: #2C2C2C!important;
+}
+.form-control:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+.add-btn {
+    padding: 5px 10px;
+    color: #fff;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: #4F4F4F;
+}
+.todo-content{
+    border-bottom: 2px solid #323435 ;
+}
+
+
+
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.7;
+}
