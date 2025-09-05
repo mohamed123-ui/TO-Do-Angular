@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  imports: [ Todo,FormsModule],
+  imports: [FormsModule],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
